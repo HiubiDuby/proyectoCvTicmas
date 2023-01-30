@@ -7,6 +7,12 @@ body{
     max-width: 50%;
 }
 
+.birrete{
+    border-radius: 100%;
+    float: left;
+    width: 20% ;
+}
+
 @media (min-width: 1200px) {
     .profile-pic{
         max-width: 30%;
@@ -28,4 +34,8 @@ body{
 }
 .list-group-item > i {
     margin-right: 10px;
+}
+
+.logo{
+    max-width: 90%;
 }
