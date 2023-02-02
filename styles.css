@@ -1,24 +1,14 @@
 body{
     text-align: center;
+    font-size: 1.05rem;
 }
 
 .profile-pic{
     border-radius: 10%;
-    max-width: 35vh;
-    
+    width: 300px;
+    margin-left: 15px;
 }
 
-.birrete{
-    border-radius: 100%;
-    float: left;
-    width: 20% ;
-}
-
-@media (min-width: 1200px) {
-    .profile-pic{
-        float: right;
-    }
-}
 
 #title{
     background-color: lavender;
@@ -31,6 +21,7 @@ body{
 .main-title{
     font-family: Lato;
     font-size: 3.5rem;
+    padding: 2% 0;
 }
 
 .main-title > span{
@@ -38,12 +29,18 @@ body{
     display: block;
 }
 
+.subtitle{
+    font-family: EB Garamond;
+    margin: 3%;
+    font-size: 2.5rem;
+}
+
 .list-group{
-    max-width: 60%;
+    max-width: 65%;
     display: inline-block;
 }
 .list-group-item{
-    background-color: lavender;
+    background-color: inherit;
     text-align: left;
 }
 .list-group-item > i {
@@ -52,6 +49,28 @@ body{
 
 .logo{
     max-width: 90%;
+}
+
+.book-icon{
+    display: none;
+}
+.book-icon > *{
+    width: 80%;
+}
+
+@media (min-width: 1200px) {
+    body{
+        font-size: 1.1rem;
+    }
+    .profile-pic{
+        float: right;
+    }
+    .main-title{
+        font-size: 5rem;
+    }
+    .book-icon{
+        display: inline;
+    }
 }
 
 /* -----FUENTES--------
