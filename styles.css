@@ -4,7 +4,8 @@ body{
 
 .profile-pic{
     border-radius: 10%;
-    max-width: 50%;
+    max-width: 35vh;
+    
 }
 
 .birrete{
@@ -15,13 +16,26 @@ body{
 
 @media (min-width: 1200px) {
     .profile-pic{
-        max-width: 30%;
+        float: right;
     }
 }
 
-.title{
+#title{
     background-color: lavender;
+}
+
+.title{
     padding: 2%;
+}
+
+.main-title{
+    font-family: Lato;
+    font-size: 3.5rem;
+}
+
+.main-title > span{
+    font-size: 120%;
+    display: block;
 }
 
 .list-group{
@@ -39,3 +53,7 @@ body{
 .logo{
     max-width: 90%;
 }
+
+/* -----FUENTES--------
+font-family: 'EB Garamond', serif;
+font-family: 'Lato', sans-serif; */
