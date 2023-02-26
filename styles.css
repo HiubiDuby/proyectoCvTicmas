@@ -48,6 +48,7 @@ body{
 
 #formacion, #footer{
     padding: 5%;
+    scroll-margin-top: 1rem;
 }
 
 .subtitle{
@@ -67,10 +68,10 @@ body{
     max-width: 90%;
 }
 
-
 #experiencia{
     background-color: aliceblue;
     padding: 1% 3% 3%;
+    scroll-margin-top: 2rem;
 }
 
 .card{
@@ -108,3 +109,9 @@ font-family: 'Lato', sans-serif; */
 .referencia-trabajo{
     display: none;
 }
+
+.btn:focus {
+    box-shadow: none;
+    background-color: #198754
+  }
+

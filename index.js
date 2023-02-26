@@ -6,6 +6,6 @@ $(".nav-link").on("click",function() {
 
 // Cambiar cartas
 $(".ref-button").on("click", function(){
-    $(".referencia-trabajo").toggle("swing")
-    $(".descrip-trabajo").toggle("swing")
+    $(".referencia-trabajo").toggle("swing");
+    $(".descrip-trabajo").toggle("swing");
 })
