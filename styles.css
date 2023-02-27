@@ -107,7 +107,11 @@ font-family: 'EB Garamond', serif;
 font-family: 'Lato', sans-serif; */
 
 .referencia-trabajo{
-    display: none;
+    display: none; 
+}
+
+.desc-button{
+    display: none; 
 }
 
 .btn:focus {

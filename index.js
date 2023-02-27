@@ -5,7 +5,12 @@ $(".nav-link").on("click",function() {
   });
 
 // Cambiar cartas
-$(".ref-button").on("click", function(){
-    $(".referencia-trabajo").toggle("swing");
-    $(".descrip-trabajo").toggle("swing");
+
+$(".ref-button, .desc-button").on("click", function(){
+  var footerSelected = $(this).parent()
+  footerSelected.children(".ref-button").toggle();
+  footerSelected.children(".desc-button").toggle();
+  var cardSelected =  $(this).parent().prev();
+  cardSelected.children(".referencia-trabajo").toggle("swing");
+  cardSelected.children(".descrip-trabajo").toggle("swing");
 })
